@@ -1,0 +1,78 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #2d3f51;
+}
+/*header start*/
+header{
+	padding-top: 15px;
+	background: url(../images/headerbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+/*Navigation start*/
+.logo{
+	font-size: 21px;
+	text-shadow: 2px 2px 4px #000000;
+}
+.social_link ul li a{
+	color: #fff!important;
+	padding:0 10px!important;
+	transition: 0.3s ease-in;
+}
+.social_link ul li a:hover{
+	color: #c8342d!important;
+}
+.menu ul li a{
+	color: #ffffff!important;
+	margin-right: 10px!important;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	transition: 0.3s ease-in;
+}
+.menu ul li a:hover{
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.menu ul li:last-child a{
+	margin-right: 0!important;
+}
+/*Navigation end*/
+/*slider start*/
+.slider{
+	padding: 200px 0;
+}
+.cid{
+	bottom: -150px;
+}
+.cid li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.slider_content{
+	text-align: center;
+}
+.slider_content h1{
+	font-weight: 700;
+	font-size: 56px;
+	color: #fff;
+	margin: 0;
+	text-transform: uppercase;
+}
+.slider_content h1 span{
+	color: #c8342d;
+}
+.slider_content p{
+	color: #fff;
+	margin: 30px 0;
+	padding: 0 80px
+}
+.slider_content button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+/*slider start*/
+/*header end*/
