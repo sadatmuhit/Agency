@@ -1,78 +1,274 @@
-body{
-	font-family: 'Open Sans', sans-serif;
-	color: #2d3f51;
+/*Global*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2d3f51;
+}
+.cmn_btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.mt_40 {
+    margin-top: 40px;
+}
+.bg_red {
+    background: #c8342d;
+}
+.bg_red:hover {
+    background: #dc3545;
+}
+.title_content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
+.title_content p {
+    width: 80%;
+    margin: 16px auto 0;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.cmn_a {
+    font-weight: 700;
+    color: #2d3f51;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.cmn_a:hover {
+    color: #c8342d;
+    text-decoration: none;
 }
 /*header start*/
-header{
-	padding-top: 15px;
-	background: url(../images/headerbg.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;	
+header {
+    padding-top: 15px;
+    background-image: url(../images/01sliderbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-/*Navigation start*/
-.logo{
-	font-size: 21px;
-	text-shadow: 2px 2px 4px #000000;
+.logo {
+    font-size: 20px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
 }
-.social_link ul li a{
-	color: #fff!important;
-	padding:0 10px!important;
-	transition: 0.3s ease-in;
+.logo span {
+    color: #c8342d;
 }
-.social_link ul li a:hover{
-	color: #c8342d!important;
+.social_link ul li a {
+    font-size: 18px;
+    color: #fff !important;
+    padding: 0 12px !important;
+    transition: 0.3s linear;
 }
-.menu ul li a{
-	color: #ffffff!important;
-	margin-right: 10px!important;
-	text-transform: uppercase;
-	border: 1px solid transparent;
-	transition: 0.3s ease-in;
+.social_link ul li a:hover {
+    color: #c8342d !important;
 }
-.menu ul li a:hover{
-	border: 1px solid #fff;
-	border-radius: 5px;
+.menu ul li a {
+    color: #fff !important;
+    text-transform: uppercase;
+    margin: 0 4px;
+    border: 1px solid transparent;
+    transition: 0.3s linear;
 }
-.menu ul li:last-child a{
-	margin-right: 0!important;
+.menu ul li a:hover {
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
-/*Navigation end*/
-/*slider start*/
-.slider{
-	padding: 200px 0;
+.dd_toggle::after {
+    border: none;
 }
-.cid{
-	bottom: -150px;
+.dd_menu {
+    min-width: 12rem;
+    padding: 0;
 }
-.cid li{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
+.search_btn:focus {
+    box-shadow: none;
 }
-.slider_content{
-	text-align: center;
-}
-.slider_content h1{
-	font-weight: 700;
-	font-size: 56px;
-	color: #fff;
-	margin: 0;
-	text-transform: uppercase;
-}
-.slider_content h1 span{
-	color: #c8342d;
-}
-.slider_content p{
-	color: #fff;
-	margin: 30px 0;
-	padding: 0 80px
-}
-.slider_content button{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-	color: #fff;
-	text-transform: uppercase;
-}
-/*slider start*/
 /*header end*/
+/*slider start*/
+.slider {
+    padding: 200px 0;
+}
+.crsl_indicators {
+    top: 140%;
+}
+.crsl_indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.sldr_content {
+    text-align: center;
+}
+.sldr_content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.sldr_content h1 span {
+    color: #c8342d;
+}
+.sldr_content p {
+    width: 80%;
+    color: #fff;
+    margin: 20px auto;
+}
+/*slider end*/
+/*about start*/
+.about {
+    padding: 80px 0;
+}
+.ab_single p {
+    margin: 5px 0 20px;
+}
+.ab_content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.ab_content h2 span {
+    font-weight: 400;
+}
+/*about end*/
+/*portfolio start*/
+.portfolio {
+    padding: 80px 0;
+    background: #f5f5f5;
+}
+.mixbtn button {
+    margin: 0 5px;
+    transition: 0.3s ease-in;
+}
+.mixbtn button:hover{
+    color: #c8342d;
+    border: 1px solid #c8342d;
+}
+.mixbtn button:focus{
+    box-shadow: none;
+}
+/*portfolio end*/
+/*process start*/
+.process {
+    padding: 80px 0;
+    background: #2d3f51;
+}
+.single {
+    margin-top: 40px;
+}
+.single p {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.single polygon {
+    transition: 0.3s linear;
+}
+.single polygon:hover {
+    stroke: red;
+}
+/*process end*/
+/*service start*/
+.service {
+    padding: 80px 0;
+}
+.box_shadow:hover {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+.srvc_single {
+    text-align: center;
+}
+.srvc_single i:before {
+    font-size: 46px;
+    margin: 0;
+    color: #c8342d;
+}
+.srvc_single p {
+    margin: 8px 0;
+}
+/*service end*/
+/*review start*/
+.review {
+    padding: 60px 0 80px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/09reviewbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c_indicators {
+    top: 105%;
+}
+.c_indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.r_single h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #c8342d;
+    margin-top: 20px;
+}
+.r_single p {
+    color: #fff;
+    margin-top: 8px;
+}
+.r_single i {
+    color: #c8342d;
+}
+/*review end*/
+/*blog start*/
+.blog {
+    padding: 80px 0;
+    background: #f5f5f5;
+}
+.blog_single small {
+    font-weight: 700;
+    color: #c8342d;
+}
+.blog_single small span {
+    margin-left: 20px;
+}
+.blog_single h2 {
+    margin: 20px 0 8px;
+}
+/*blog end*/
+/*footer start*/
+footer {
+    padding: 25px 0;
+    background: #28252a;
+}
+footer a {
+    color: #fff;
+    padding: 0 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+footer a:hover {
+    color: #c8342d;
+    text-decoration: none;
+}
+footer i {
+    color: #c8342d;
+    transition: 0.3s ease-in;
+}
+footer i:hover {
+    color: #fff;
+}
+/*footer end*/

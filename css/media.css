@@ -1,109 +1,192 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    /*header start*/
-    .menu ul li a{
-    	border: none;
+    /*global*/
+    .title_content {
+        margin-bottom: 0px;
     }
-    .menu ul li a:hover{
-    	color: #c8342d!important;
+    .title {
+        font-size: 26px;
+    }
+    .title_content p {
+        width: 100%;
+    }
+    /*global end*/
+    /*header start*/
+    .menu ul li a:hover {
         border: none;
+        color: #c8342d !important;
     }
     /*header end*/
     /*slider start*/
     .slider {
-        padding: 100px 0;
+        padding: 40px 0 80px;
     }
-    .cid {
-        bottom: -90px;
+    .crsl_indicators {
+        top: 105%;
     }
-    .cid li {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
+    .sldr_content h1 {
+        font-size: 28px;
     }
-    .slider_content h1{
-        font-size: 27px;
+    .sldr_content h1 span {
+        color: #c8342d;
     }
-    .slider_content p{
-        padding: 0;
+    .sldr_content p {
+        width: 80%;
+        color: #fff;
+        margin: 20px auto;
     }
     /*slider end*/
+    /*about start*/
+    .about {
+        padding: 40px 0;
+    }
+    .ab_content h2 {
+        font-size: 20px;
+    }
+    /*about end*/
+    /*portfolio start*/
+    .portfolio {
+        padding: 40px 0;
+    }
+    .mixbtn {
+        margin-top: 40px;
+    }
+    .mixbtn button {
+        display: block;
+        margin: 0 auto;
+    }
+    .mixbtn button:hover{
+        border: none;
+    }
+    /*portfolio end*/
+    /*process start*/
+    .process {
+        padding: 40px 0;
+        background: #2d3f51;
+    }
+    /*process end*/
+    /*service start*/
+    .service {
+        padding: 40px 0;
+    }
+    /*service end*/
+    /*review start*/
+    .review {
+        padding: 40px 0 80px;
+    }
+    /*review end*/
+    /*blog start*/
+    .blog {
+        padding: 40px 0;
+    }
+    .blog_single small span {
+        display: block;
+        margin: 0;
+    }
+    /*blog end*/
 }
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /*header start*/
-    .menu ul li a{
-    	border: none;
+    /*global*/
+    .title_content {
+        margin-bottom: 0px;
     }
-    .menu ul li a:hover{
-    	color: #c8342d!important;
+    .title {
+        font-size: 28px;
+    }
+    .title_content p {
+        width: 100%;
+    }
+    /*global end*/
+    /*header start*/
+    .menu ul li a:hover {
         border: none;
+        color: #c8342d !important;
     }
     /*header end*/
     /*slider start*/
     .slider {
-        padding: 100px 0;
+        padding: 40px 0 80px;
     }
-    .cid {
-        bottom: -90px;
+    .crsl_indicators {
+        top: 110%;
     }
-    .cid li {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
+    .sldr_content h1 {
+        font-size: 28px;
     }
-    .slider_content h1{
-        font-size: 30px;
+    .sldr_content h1 span {
+        color: #c8342d;
     }
-    .slider_content p{
-        padding: 0;
+    .sldr_content p {
+        width: 80%;
+        color: #fff;
+        margin: 20px auto;
     }
     /*slider end*/
-
+    /*about start*/
+    .about {
+        padding: 40px 0;
+    }
+    .ab_content h2 {
+        font-size: 20px;
+    }
+    /*about end*/
+    /*portfolio start*/
+    .portfolio {
+        padding: 40px 0;
+    }
+    .mixbtn {
+        margin-top: 40px;
+    }
+    .mixbtn button {
+        padding: 0 10px;
+    }
+    /*portfolio end*/
+    /*process start*/
+    .process {
+        padding: 40px 0;
+        background: #2d3f51;
+    }
+    /*process end*/
+    /*service start*/
+    .service {
+        padding: 40px 0;
+    }
+    /*service end*/
+    /*review start*/
+    .review {
+        padding: 40px 0 80px;
+    }
+    /*review end*/
+    /*blog start*/
+    .blog {
+        padding: 40px 0;
+    }
+    .blog_single small span {
+        display: block;
+        margin: 0;
+    }
+    /*blog end*/
 }
-
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /*header start*/
-    .menu ul li a{
-    	border: none;
+    /*    global*/
+    .title {
+        font-size: 30px;
     }
-    .menu ul li a:hover{
-    	color: #c8342d!important;
+    /*header start*/
+    .menu ul li a:hover {
         border: none;
+        color: #c8342d !important;
     }
     /*header end*/
     /*slider start*/
-    .slider {
-        padding: 150px 0;
-    }
-    .cid {
-        bottom: -120px;
-    }
-    .slider_content h1{
-        font-size: 37px;
-    }
-    .slider_content p{
-        padding: 0 22px;
+    .sldr_content h1 {
+        font-size: 35px;
     }
     /*slider end*/
-	
 }
-
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    /*slider start*/
-    .slider_content h1{
-        font-size: 50px;
-    }
-    .slider_content p{
-        padding: 0;
-    }
-    /*slider end*/
-}
-
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	
-}
+@media (min-width: 1200px) {}
