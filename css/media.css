@@ -1,190 +1,96 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    /*global*/
-    .title_content {
-        margin-bottom: 0px;
+    .logo {
+        margin-bottom: 16px;
     }
-    .title {
+    .social_link {
+        display: none;
+    }
+    #slider {
+        padding: 100px 0;
+    }
+    .c_indicators {
+        top: 110%;
+    }
+    .sl_content h1 {
         font-size: 26px;
     }
-    .title_content p {
+    .sl_content p {
         width: 100%;
+        margin: 20px 0;
     }
-    /*global end*/
-    /*header start*/
-    .menu ul li a:hover {
-        border: none;
-        color: #c8342d !important;
+    #about {
+        padding: 0 0 40px;
     }
-    /*header end*/
-    /*slider start*/
-    .slider {
-        padding: 40px 0 80px;
+    .a_single {
+        padding: 20px 0;
     }
-    .crsl_indicators {
-        top: 105%;
-    }
-    .sldr_content h1 {
-        font-size: 28px;
-    }
-    .sldr_content h1 span {
-        color: #c8342d;
-    }
-    .sldr_content p {
-        width: 80%;
-        color: #fff;
-        margin: 20px auto;
-    }
-    /*slider end*/
-    /*about start*/
-    .about {
-        padding: 40px 0;
-    }
-    .ab_content h2 {
-        font-size: 20px;
-    }
-    /*about end*/
-    /*portfolio start*/
-    .portfolio {
-        padding: 40px 0;
-    }
-    .mixbtn {
+    .a_content {
+        padding: 0;
         margin-top: 40px;
     }
-    .mixbtn button {
+    .a_content h2 {
+        font-size: 20px;
+    }
+    #portfolio,
+    .process,
+    #service,
+    #blog {
+        padding: 40px 0;
+    }
+    .title {
+        font-size: 22px;
+    }
+    #portfolio ul li {
         display: block;
-        margin: 0 auto;
     }
-    .mixbtn button:hover{
-        border: none;
+    #portfolio ul li button {
+        width: 100%;
     }
-    /*portfolio end*/
-    /*process start*/
-    .process {
-        padding: 40px 0;
-        background: #2d3f51;
+    #review {
+        padding: 40px 0 60px;
     }
-    /*process end*/
-    /*service start*/
-    .service {
-        padding: 40px 0;
+    .b_single {
+        padding: 20px 15px;
     }
-    /*service end*/
-    /*review start*/
-    .review {
-        padding: 40px 0 80px;
-    }
-    /*review end*/
-    /*blog start*/
-    .blog {
-        padding: 40px 0;
-    }
-    .blog_single small span {
-        display: block;
-        margin: 0;
-    }
-    /*blog end*/
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /*global*/
-    .title_content {
-        margin-bottom: 0px;
+    .logo {
+        margin-bottom: 16px;
+    }
+    .social_link {
+        display: none;
+    }
+    .sl_content h1 {
+        font-size: 30px;
+    }
+    .a_content {
+        padding: 0;
+        margin-top: 60px;
     }
     .title {
         font-size: 28px;
     }
-    .title_content p {
-        width: 100%;
-    }
-    /*global end*/
-    /*header start*/
-    .menu ul li a:hover {
-        border: none;
-        color: #c8342d !important;
-    }
-    /*header end*/
-    /*slider start*/
-    .slider {
-        padding: 40px 0 80px;
-    }
-    .crsl_indicators {
-        top: 110%;
-    }
-    .sldr_content h1 {
-        font-size: 28px;
-    }
-    .sldr_content h1 span {
-        color: #c8342d;
-    }
-    .sldr_content p {
-        width: 80%;
-        color: #fff;
-        margin: 20px auto;
-    }
-    /*slider end*/
-    /*about start*/
-    .about {
-        padding: 40px 0;
-    }
-    .ab_content h2 {
-        font-size: 20px;
-    }
-    /*about end*/
-    /*portfolio start*/
-    .portfolio {
-        padding: 40px 0;
-    }
-    .mixbtn {
-        margin-top: 40px;
-    }
-    .mixbtn button {
-        padding: 0 10px;
-    }
-    /*portfolio end*/
-    /*process start*/
-    .process {
-        padding: 40px 0;
-        background: #2d3f51;
-    }
-    /*process end*/
-    /*service start*/
-    .service {
-        padding: 40px 0;
-    }
-    /*service end*/
-    /*review start*/
-    .review {
-        padding: 40px 0 80px;
-    }
-    /*review end*/
-    /*blog start*/
-    .blog {
-        padding: 40px 0;
-    }
-    .blog_single small span {
-        display: block;
-        margin: 0;
-    }
-    /*blog end*/
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /*    global*/
+    .logo {
+        margin-bottom: 16px;
+    }
+    .social_link {
+        display: none;
+    }
+    .sl_content h1 {
+        font-size: 34px;
+    }
+    .a_content {
+        padding: 0;
+        margin-top: 60px;
+    }
     .title {
-        font-size: 30px;
-    }
-    /*header start*/
-    .menu ul li a:hover {
-        border: none;
-        color: #c8342d !important;
-    }
-    /*header end*/
-    /*slider start*/
-    .sldr_content h1 {
         font-size: 35px;
     }
-    /*slider end*/
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
