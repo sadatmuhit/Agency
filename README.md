@@ -1,4 +1,4 @@
 # Agency
 psd to bootstrap
 
-Live Link: https://sadatmuhit.github.io/Agency/
+Live Link: https://sadatmuhit.github.io/Brandzoid/
